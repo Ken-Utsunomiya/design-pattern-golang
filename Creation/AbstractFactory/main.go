@@ -25,15 +25,11 @@ func main() {
 }
 
 func printShoeDetails(s product.IShoe) {
-	fmt.Printf("Logo: %s", s.GetLogo())
-	fmt.Println()
-	fmt.Printf("Size: %d", s.GetSize())
-	fmt.Println()
+	fmt.Printf("Logo: %s\n", s.GetLogo())
+	fmt.Printf("Size: %d\n", s.GetSize())
 }
 
 func printShirtDetails(s product.IShirt) {
-	fmt.Printf("Logo: %s", s.GetLogo())
-	fmt.Println()
-	fmt.Printf("Size: %d", s.GetSize())
-	fmt.Println()
+	fmt.Printf("Logo: %s\n", s.GetLogo())
+	fmt.Printf("Size: %d\n", s.GetSize())
 }

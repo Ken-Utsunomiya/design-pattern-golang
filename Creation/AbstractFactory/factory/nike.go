@@ -4,6 +4,7 @@ import "github.com/projects/design-pattern-golang/Creation/AbstractFactory/produ
 
 // concrete factory
 
+// Nike implements ISportsFactory
 type Nike struct {
 }
 
